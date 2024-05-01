@@ -1,3 +1,17 @@
+# Базовые тригонометрические равенства
+
+Тригонометрические равенства в формате LaTeX
+
+Скачать PDF файл можно из окошка releases справа или по [прямой ссылке](https://github.com/petsernik/trigonometric_identities_latex/releases/download/release/trigonometric_identities.pdf) (но её я могу забыть обновить случайно). 
+
+## Отзывы и пожелания приветствуются
+
+Если найдёте ошибку или захотите добавить равенство вы свободны к тому, чтобы создать issue ticket/pull request. 
+
+[Ссылка](https://github.com/evgenyneu/trigonometric_identities_latex) на английскую версию проекта на GitHub.
+
+Прошлый README:
+
 # Basic trigonometric identities
 
 This is a LaTeX document containing basic trigonometric identities that can be useful for a student.
