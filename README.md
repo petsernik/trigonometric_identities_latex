@@ -2,7 +2,7 @@
 
 Тригонометрические равенства в формате LaTeX.
 
-Скачать PDF файл можно из окошка releases справа или по [прямой ссылке](https://github.com/petsernik/trigonometric_identities_latex/releases/download/release/trigonometric_identities.pdf) (но её я могу забыть обновить случайно). 
+Скачать PDF файл можно из окошка releases справа или по [прямой ссылке](https://github.com/petsernik/trigonometric_identities_latex/releases/download/release-1.1/trigonometric_identities.pdf) (но её я могу забыть обновить случайно). 
 
 ## Отзывы и пожелания приветствуются
 
