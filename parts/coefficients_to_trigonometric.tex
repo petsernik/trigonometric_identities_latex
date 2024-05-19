@@ -2,7 +2,8 @@
 
 \begin{align*}
   a \sin x + b \cos x &= \sqrt{a^2+b^2} \left(\frac{a}{\sqrt{a^2+b^2}} \sin x + \frac{b}{\sqrt{a^2+b^2}}\cos x\right) \\ 
-  &= \sqrt{a^2+b^2} (\sin \alpha \sin x + \cos \alpha \cos x) = \sqrt{a^2+b^2} \cos(x - \alpha) \\
-  &= \sqrt{a^2+b^2} (\cos \beta \sin x + \sin \beta \cos x) = \sqrt{a^2+b^2} \sin(x + \beta) \\
-  &\text{где } \alpha=\arcsin \frac{a}{\sqrt{a^2+b^2}},\ \beta = \arcsin \frac{b}{\sqrt{a^2+b^2}}
+  &= \sqrt{a^2+b^2} (\cos \varphi \sin x + \sin \varphi \cos x) = \sqrt{a^2+b^2} \sin(x + \varphi) \\
+  &= \sqrt{a^2+b^2} (\sin \tau \sin x + \cos \tau \cos x) = \sqrt{a^2+b^2} \cos(x - \tau)
 \end{align*}
+
+\textit{Примечание.} данный подход напоминает переход в полярные координаты, где точка $(a,b)$(в евклидовых координатах) задана как $(r,\varphi)$(в полярных координатах) с $r=\sqrt{a^2+b^2}, \varphi = \pm \arccos\frac{a}{r}$, выбор знака $\varphi$ зависит от знака $b$ (они должны совпадать по знаку) --- это актуально и для применения формулы выше.

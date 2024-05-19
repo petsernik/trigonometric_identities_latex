@@ -3,10 +3,10 @@
 % Packages
 % ---------------------
 
-\usepackage{cmap} %ability to copy russian
-\usepackage[T2A]{fontenc} %encoding for babel
-\usepackage[russian]{babel} %russian
-
+\usepackage{cmap} % Ability to copy russian
+\usepackage[T2A]{fontenc} % Encoding for babel
+\usepackage[russian]{babel} % Russian
+% \usepackage{xcolor} % Colored text
 \usepackage{amsmath} % Needed for command eqref
 \usepackage{siunitx} % Physical numbers and units
 \usepackage{bm} % Bold math text \bm{x}
@@ -36,18 +36,38 @@
 
 \section*{Базовые тригонометрические равенства}
 
-\input{parts/angles}
+
+
+
+\fbox{\begin{minipage}{3cm}
 \input{parts/reciprocal}
 \input{parts/even_odd}
 \input{parts/pythagorean}
-\input{parts/cofunction}
-\input{parts/sum_and_difference_of_angles}
-\input{parts/double_angles}
+\end{minipage}}
+\fbox{\begin{minipage}{4cm}
 \input{parts/half_angles}
 \input{parts/power_reducing_formulas}
+\end{minipage}}
+\fbox{\begin{minipage}{10cm}
+\input{parts/cofunction}
+\input{parts/sum_of_angles}
+\input{parts/double_angles}
+\end{minipage}}
+
+\fbox{\begin{minipage}{7cm}
 \input{parts/product_to_sum}
+\end{minipage}}
+\fbox{\begin{minipage}{7cm}
 \input{parts/sum_to_product}
+\end{minipage}}
+
+\fbox{\begin{minipage}{17cm}
 \input{parts/coefficients_to_trigonometric}
+\end{minipage}}
+
+\input{parts/angles}
+
+
 \input{parts/source}
 
 
